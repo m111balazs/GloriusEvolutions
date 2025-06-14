@@ -1,0 +1,10 @@
+^D:\DEV\PROJECT GLORIOUS EVOLUTIONS\GLORIUSEVOLUTIONS\LIB\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Dev/Project Glorious Evolutions/GloriusEvolutions" "-BD:/dev/Project Glorious Evolutions/GloriusEvolutions/build" --check-stamp-file "D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

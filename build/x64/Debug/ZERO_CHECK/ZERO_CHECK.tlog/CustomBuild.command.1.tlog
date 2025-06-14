@@ -1,0 +1,10 @@
+^D:\DEV\PROJECT GLORIOUS EVOLUTIONS\GLORIUSEVOLUTIONS\BUILD\CMAKEFILES\C84E83182806E2F798EE4D368ABBD4A9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Dev/Project Glorious Evolutions/GloriusEvolutions" "-BD:/dev/Project Glorious Evolutions/GloriusEvolutions/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/GloriousEvolutions.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

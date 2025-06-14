@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\Project Glorious Evolutions\GloriusEvolutions\build\CMakeFiles\550b195e2fee809d8b5b7488e36e4750\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dev\Project Glorious Evolutions\GloriusEvolutions\lib\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\dev\Project Glorious Evolutions\GloriusEvolutions\build\lib\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4B83CDD8-6CBD-3233-853D-EE639FC14657}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
