@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/cmake_install.cmake",
-		"D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/cmake_install.cmake",
-		"D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/src/cmake_install.cmake",
-		"D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/docs/cmake_install.cmake"
+		"D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/cmake_install.cmake",
+		"D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/cmake_install.cmake",
+		"D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/src/cmake_install.cmake",
+		"D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/docs/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

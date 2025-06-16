@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/install_manifest.txt\"")
+if (NOT EXISTS "D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/install_manifest.txt" files)
+file(READ "D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

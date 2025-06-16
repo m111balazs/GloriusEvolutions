@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/docs/install_local_manifest.txt"
+  file(WRITE "D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/docs/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

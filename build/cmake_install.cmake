@@ -34,14 +34,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/cmake_install.cmake")
+  include("D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/lib/glfw/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/install_local_manifest.txt"
+  file(WRITE "D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/dev/Project Glorious Evolutions/GloriusEvolutions/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/Dev/Project Glorious Evolutions/GloriusEvolutions/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

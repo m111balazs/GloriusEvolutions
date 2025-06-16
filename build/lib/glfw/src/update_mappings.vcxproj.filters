@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\dev\Project Glorious Evolutions\GloriusEvolutions\build\CMakeFiles\e0030cb447535942f247b6439c31587e\update_mappings.rule">
+    <CustomBuild Include="D:\Dev\Project Glorious Evolutions\GloriusEvolutions\build\CMakeFiles\dd269b50dca1ddbe3f25c506967bb1e4\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="D:\Dev\Project Glorious Evolutions\GloriusEvolutions\lib\glfw\src\CMakeLists.txt" />
@@ -11,14 +11,14 @@
       <Filter>Header Files</Filter>
     </None>
     <None Include="D:\Dev\Project Glorious Evolutions\GloriusEvolutions\lib\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="D:\dev\Project Glorious Evolutions\GloriusEvolutions\build\lib\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="D:\Dev\Project Glorious Evolutions\GloriusEvolutions\build\lib\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4B83CDD8-6CBD-3233-853D-EE639FC14657}</UniqueIdentifier>
+      <UniqueIdentifier>{E272212E-6C20-350A-8C7F-DE2171365FB0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{FDAB84FD-DC62-3403-AC92-7A9669533FFC}</UniqueIdentifier>
+      <UniqueIdentifier>{0CBA5FEC-723D-3877-86A7-21FFAF6D8804}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

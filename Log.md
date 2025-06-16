@@ -31,12 +31,21 @@ Used `glm` for matrix math:
 * `view` matrix from the camera position and orientation.
 * `projection` matrix for perspective projection.
 
+## Ground plane added
 
+
+## Debug GUI added
+
+
+* Shows FPS
+* Shows camera position
+* Shows camera angle
+* Shows camera zoom
+* Shows camera movement speed
 
 ## To do next
 
 * Render 3D cube
-* Add ground plane
 * Add lighting (directional, point lights) for realistic shading.
 * Implement textured materials.
 * Expand the camera system (jump, gravity, collisions).
